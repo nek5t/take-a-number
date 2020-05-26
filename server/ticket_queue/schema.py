@@ -1,7 +1,7 @@
 import graphene
 
 from graphene_django.types import DjangoObjectType
-from ticket.models import Ticket
+from .models import Ticket
 
 class TicketType(DjangoObjectType):
     class Meta:

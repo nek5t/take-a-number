@@ -1,8 +1,8 @@
 import graphene
 
-import ticket.schema
+import ticket_queue.schema
 
-class Query(ticket.schema.Query, graphene.ObjectType):
+class Query(ticket_queue.schema.Query, graphene.ObjectType):
     pass
 
 schema = graphene.Schema(query=Query)
