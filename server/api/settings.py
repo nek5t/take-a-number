@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'graphene_django',
     'corsheaders',
-    'ticket_queue'
+    'api.tickets'
 ]
 
 GRAPHENE = {
